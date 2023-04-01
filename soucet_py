@@ -1,0 +1,4 @@
+cislo1 = 5
+cislo2 = 7
+soucet = cislo1 + cislo2
+print(soucet)
