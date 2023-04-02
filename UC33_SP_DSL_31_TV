@@ -1,0 +1,40 @@
+DEC_DSL_31_01 {Product_Count}==1 Počet televizí budeme zjišťovat pomocí Call: COMQueryInstalledProducts.queryInstalledProducts  Aktuálně je v UC20 a musí se přenést do UC33
+DEC_DSL_31_02 {Counter} < 2
+DEC_DSL_31_03  {Counter} < 2
+DEC_DSL_31_04 {Counter} < 2
+DEC_DSL_31_05 {Counter} < 2
+ 
+MSG_DSL_31_01  Řekněte mi prosím, chcete řešit údaje k televizi, která je pod číslem, ze kterého teď voláte?
+MSG_DSL_31_02  Výborně. Nejpohodlnější pro vás bude využít aplikaci Můj T-mobile. Tam si můžete své heslo změnit. Pošlu vám SMSkou odkaz, který vás nasměruje přímo na místo s nastavením hesla. Vyhovuje vám takové řešení?
+MSG_DSL_31_03 Dobře. Heslo k televizi, kterou máte pod touto smlouvou, vám tedy můžu resetovat (obnovit?) a poslat vám ho SMSkou. V SMS obdržíte i uživatelské jméno. SMS by přišla na číslo xxx. Chcete heslo obnovit a údaje poslat?
+MSG_DSL_31_04 Povedlo se. SMS jsme vám poslali. Teď by bylo nejlepší vyzkoušet se přihlásit. Za pět minut vám můžu zavolat, jestli se přihlášení povedlo. Chcete, abych vám zavolala?
+MSG_DSL_31_05 Ve vašem případě vás spojím s našimi asistenty, kteří s vámi údaje k přihlášení dořeší.
+MSG_DSL_31_06 V tom případě vás přepojím na naše asistenty.
+MSG_DSL_31_07 Promiňte, nerozuměla jsem. Řekněte mi prosím, chcete řešit připojení na této adrese?
+MSG_DSL_31_08 Promiňte, nerozuměla jsem.
+MSG_DSL_31_09 Promiňte, nerozuměla jsem. Řekněte mi prosím, chcete řešit připojení na této adrese?
+MSG_DSL_31_10 Ticha wav
+MSG_DSL_31_11 Promiňte, nerozuměla jsem.
+MSG_DSL_31_12 ?
+
+ 
+S_DSL_31_01 Want reset ? I_DSL_31_01_a Yes   I_DSL_31_01_b No    I_DSL_31_01_c Not Recognized
+S_DSL_31_02 App?   I_DSL_31_02_a Yes I_DSL_31_02_b No  I_DSL_31_02_c Not Recognized
+S_DSL_31_03 This contract?  I_DSL_31_03_a Yes   I_DSL_31_03_b No    I_DSL_31_03_c Not Recognized
+S_DSL_31_04 CallBack?  I_DSL_31_04_a Yes   I_DSL_31_04_b No    I_DSL_31_04_c Not Recognized
+ 
+CALL_DSL_31_01 SBLServiceManagement.createSR                                                 V konfiguráku potvrdit správnost IN/OUT v CallsInOuts
+CALL_DSL_31_02 CNHNotification.sendCustomerNotification (MSISDN)             V konfiguráku CallConsts potvrdit správnost const_value aktuálně je { template_id: 'va_33_tdms_transfer' }
+CALL_DSL_31_03 SBLServiceManagement.createSR                                                 V konfiguráku potvrdit správnost IN/OUT v CallsInOuts
+CALL_DSL_31_04 SBLServiceManagement.modifySR                                               Vybráno R jako Resolved              elif service == "modifySr_R":  mapped_data["status"] = "Resolved"
+CALL_DSL_31_05 COMQueryInstalledProducts.queryInstalledProducts (Subscriber_Id, Product_Number, Lifecycle_Status)
+CALL_DSL_31_06 IPTVSubscriptionManagementEx (Subscriber_Id, Customer_Id)
+
+SAVE_DSL_31_01 {RPT_Call_Status} <- “VA not understood”
+SAVE_DSL_31_02 {Product_Number} <- '["SUB6000"]'; {Lifecycle_Status} <- '[“active“]';
+
+M_DSL_31_01 Redirection to Operator
+
+SP_DSL_15 Anything else
+SP_DSL_32 Callback
+START SP_DSL_31
