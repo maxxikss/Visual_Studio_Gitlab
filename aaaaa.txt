@@ -1,1 +1,9 @@
-dsdssfff
+dsdssf
+
+- Jak to otestujeme na testu Když jsme to doteďka testovali na produkci
+- Kde se na setujou proměnný 
+- Na testu to máme otočený proti testu dva
+
+- Jak otestujeme callbacky bez flow
+- Kam do flow se zákazník vrátí po zavolání zpět
+
