@@ -1,0 +1,54 @@
+uc-customization-UC06bCZ
+endpoints:
+    "activateService_12_01": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/OCVSimpleOrderService/up"
+    "activateService_12_04": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/OCVSimpleOrderService/up"
+    "deactivateService": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/OCVSimpleOrderService/up"
+    "getAssessment": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/IVRRTDCampaigns/up"
+    "getBAOverview": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/InvoicePayment/up"
+    "getBAOverview_04_05": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/InvoicePayment/up"
+    "getBillingProfile": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLBillingProfileManagement/up"
+    "getBillshock_10_1": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/ODSBillingProfile/up"
+    "getBillshock_10_2": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/ODSBillingProfile/up"
+    "getIncomingPayment": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/InvoiceManagement/up"
+    "getInvoices_04_01": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/InvoiceManagement/up"
+    "getInvoices_12_10_and_12_11": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/OCVSimpleOrderService/up"
+    "queryInstalledProducts": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/COMQueryInstalledProducts/up"
+    "queryInstalledProductsGen": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/COMQueryInstalledProducts/up"
+    "sendCustomerNotification": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/CNHNotification/up"
+    "sendCustomerNotification_04_09": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/CNHNotification/up"
+    "sendCustomerNotification_06_05": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/CNHNotification/up"
+    "searchSR": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLServiceManagement/up"
+    "createSR": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLServiceManagement/up"
+    "modifySr": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLServiceManagement/up"
+
+
+uc-customization-UC20CZ
+endpoints:
+    "getBAOverview": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/InvoicePayment/up"
+    "getContact": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLAccountManagement/up"
+    "SIMInfo": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SIMInfo/up"
+    "queryInstalledProducts": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/COMQueryInstalledProducts/up"
+    "OCVSimpleOrderService": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/OCVSimpleOrderService/up"
+
+
+uc-customization-UC33CZ
+endpoints:
+    "queryListOfSubscribers": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/COMSubscriberManagement/up"
+    "queryInstalledProducts": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/COMQueryInstalledProducts/up"
+    "searchSR": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLServiceManagement/up"
+    "getAddress": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLAddressManagement/up"
+    "getOutageInfo": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/B2BMMOOrderStateService/up"
+    "getOutageList": "http://tibcoprodbwlb2.st.sk:8012/CSMTChangeService_Read.serviceagent/CSMTChangeService_ReadService"
+    "getCA": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLAccountManagement/up"
+    "getContactsForCA": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLAccountManagement/up"
+    "createSR": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLServiceManagement/up"
+    "getHistory": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/DSLSession/up"
+    "getHistory_25_01": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/RadiusSession/up"
+    "getHistory_03_10": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/RadiusSession/up"
+    "modifySr": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/SBLServiceManagement/up"
+    "sendCustomerNotification": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/CNHNotification/up"
+    "sendCustomerNotification_03_06": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/CNHNotification/up"
+    "getBAOverview": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/InvoicePayment/up"
+    "diagnose": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/B2BMMODiagnosticInfoPL/up"
+    "getSubscriberStatus": "https://hksbpcalp.cz.tmo:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/PIFKOStatusService/up"
+    "IPTVSubscriptionManagementEx": "https://hkemsjb.tmo.cz:8443/soabp/rpc/ProductionInfrastructure/sk.telekom.architecture.GoodAIServiceCZ/CDMtoGOODAI_CZ_Synch/IPTVSubscriptionManagementEx/up"
