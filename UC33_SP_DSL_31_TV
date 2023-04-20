@@ -28,7 +28,7 @@ CALL_DSL_31_02 CNHNotification.sendCustomerNotification (MSISDN)             V k
 CALL_DSL_31_03 SBLServiceManagement.createSR                                                 V konfiguráku potvrdit správnost IN/OUT v CallsInOuts
 CALL_DSL_31_04 SBLServiceManagement.modifySR                                               Vybráno R jako Resolved              elif service == "modifySr_R":  mapped_data["status"] = "Resolved"
 CALL_DSL_31_05 COMQueryInstalledProducts.queryInstalledProducts (Subscriber_Id, Product_Number, Lifecycle_Status)
-CALL_DSL_31_06 IPTVSubscriptionManagementEx (Subscriber_Id, Customer_Id)
+CALL_DSL_31_06 IPTVSubscriptionManagementEx 
 
 SAVE_DSL_31_01 {RPT_Call_Status} <- “VA not understood”
 SAVE_DSL_31_02 {Product_Number} <- '["SUB6000"]'; {Lifecycle_Status} <- '[“active“]';

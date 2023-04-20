@@ -1,0 +1,937 @@
+{
+  "_index": "interaction-000014",
+  "_type": "_doc",
+  "_id": "19EaR4cBTvpId4m9VQPb",
+  "_version": 1,
+  "_score": 1,
+  "_ignored": [
+    "CallFlowPathString.keyword"
+  ],
+  "_source": {
+    "CallFlowPath": [
+      "T_DSL_START",
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "VariablesOut": {
+      "SR_Subarea": "Empty",
+      "messageId": "IVR-TST-THK230403201243-0",
+      "Product_Count": "0",
+      "Phonexia_Confidence": "0",
+      "channelType": "voice",
+      "speechRecognitionTechnology": "PHONEXIA",
+      "openingHours": "{'workdays': '08:00-16:00', 'weekend': 'CLOSED', 'holidays': 'CLOSED'}",
+      "Product_Code": "Unknown",
+      "_Channel": "Voice",
+      "TrainingSetVersion": "VA_TMCZ_UC33_training_set_v2306.01.xlsx",
+      "instruction": "CALL_START",
+      "ID_Dictated": "False",
+      "Global_Stop": "2",
+      "Contact_Id": "6001060817",
+      "Stage_Of_Call": "Before Problem identification",
+      "More_Internets": "False",
+      "Yesterday": "2023-04-02, 12:31:43",
+      "speechSynthesisTechnology": "NUANCE",
+      "Product_Number": "['SUB6000']",
+      "Phone_Number": "00420730504433",
+      "Business_Hours": "True",
+      "communicationLogic": "speciallogicforDSL",
+      "preprocessed_current_utterance": "None",
+      "RecordingsTextsVersion": "VA_TMCZ_UC33_recordings_texts_v2306.01.xlsx",
+      "Account_Type": "B2C - PostPaid",
+      "LogicVersion": "VA_TMCZ_UC33_logic_v2306.01.vsdx",
+      "VA_NodeRouting": "MSG_DSL_31_10",
+      "customerIntents": "",
+      "TMobile_Benefit": "false",
+      "SR_Id": "Empty",
+      "SR_Is_Open": "False",
+      "UUID": "3121916c-0120-a1fb-511e-709e06b03c88",
+      "eventName": "AsyncDone",
+      "conversation_id": "voice_~1090~00A04R01P89MP0MS6LRVS2LAES0000IO",
+      "Customer_Id": "3005504174",
+      "clientConnectionId": "0466033b20ca1894",
+      "msgRevision": "v2306.1",
+      "Lifecycle_Status": "['active']",
+      "Served_Customer_Id": "3005504174",
+      "command": "rta",
+      "Subscriber_Id": "150404688",
+      "ConfigurationFileVersion": "VA_TMCZ_UC33_configuration_v2306.01.xlsx",
+      "ProjectVersion": "2306.01",
+      "No_Input_To_TDMS": "False",
+      "isOpen": "true",
+      "Contact_Role": "ZO",
+      "Modem_Restarted": "False",
+      "Billing_Profile_Id": "76037385",
+      "DSL_Scenario": "Unknown",
+      "orsId": "~1090~00A04R01P89MP0MS6LRVS2LAES0000IO",
+      "channel": "voice",
+      "current_utterance": "",
+      "clientDialogId": "OVAP5aa66aa37c9f2c1027704be3a497e61bdb7189e1",
+      "Callback_Started": "False",
+      "clientInteractionId": "THK230403201243",
+      "isHoliday": "false",
+      "CALL_SUCCESS": "True",
+      "processId": "IVR-TST::IVR-8E565000-6094-7FBA-487B-58C9100EA159"
+    },
+    "NodeId": "T_DSL_TRUE_TERMINATE_SESSION",
+    "SelectedIntent": "",
+    "organization_id": null,
+    "error": null,
+    "CallFlowPathString": "T_DSL_START,T_DSL_TRUE_START,SAVE_DSL_00_01,DEC_DSL_00_06,DEC_DSL_00_07,M_DSL_00_03_GOTO_VA_NODEROUTING,MSG_DSL_31_10,SAVE_DSL_31_02,CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS,DEC_DSL_31_01,MSG_DSL_31_05,M_DSL_31_01_REDIRECTION_TO_OPERATOR,T_DSL_TERMINATE_SESSION,T_DSL_TRUE_TERMINATE_SESSION",
+    "ConversationId": "voice_~1090~00A04R01P89MP0MS6LRVS2LAES0000IO",
+    "UseCaseCode": "DSL",
+    "Language": "cs",
+    "project_name": "tmcz-uc33-2012.03",
+    "tags": [
+      "_grokparsefailure"
+    ],
+    "ProcessedNodes": [
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "message": "Business log for the message response.",
+    "ProcessedNodesString": [
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "GoodbotProcessingTime": 291,
+    "ConversationChange": 1680525103658,
+    "UseCaseShortName": "UC33CZ",
+    "UseCase": "W2 CZ Momento 2 UC33 CZ Technical Helpdesk",
+    "project_id": null,
+    "InteractionId": "va-711b6fc3-11b2-69ea-76bb-cc9733e4ac3a",
+    "ConversationStart": 1680525103345,
+    "PreprocessedText": "",
+    "@timestamp": "2023-04-03T12:31:43.668Z",
+    "Confidence": 1,
+    "Country": "CZ",
+    "Utterance": "",
+    "VariablesIn": {
+      "UUID": "3121916c-0120-a1fb-511e-709e06b03c88",
+      "messageId": "IVR-TST-THK230403201243-0",
+      "eventName": "AsyncDone",
+      "Phonexia_Confidence": "0",
+      "channelType": "voice",
+      "speechRecognitionTechnology": "PHONEXIA",
+      "openingHours": "{'workdays': '08:00-16:00', 'weekend': 'CLOSED', 'holidays': 'CLOSED'}",
+      "Customer_Id": "3005504174",
+      "clientConnectionId": "0466033b20ca1894",
+      "instruction": "CALL_START",
+      "Contact_Id": "6001060817",
+      "Phone_Number": "00420730504433",
+      "Subscriber_Id": "150404688",
+      "speechSynthesisTechnology": "NUANCE",
+      "communicationLogic": "speciallogicforDSL",
+      "isOpen": "true",
+      "Account_Type": "B2C - PostPaid",
+      "Contact_Role": "ZO",
+      "Billing_Profile_Id": "76037385",
+      "TMobile_Benefit": "false",
+      "orsId": "~1090~00A04R01P89MP0MS6LRVS2LAES0000IO",
+      "clientDialogId": "OVAP5aa66aa37c9f2c1027704be3a497e61bdb7189e1",
+      "clientInteractionId": "THK230403201243",
+      "isHoliday": "false",
+      "processId": "IVR-TST::IVR-8E565000-6094-7FBA-487B-58C9100EA159"
+    },
+    "NodeIdPrevious": "T_DSL_START",
+    "ConfigHash": "cfg-301e99d2d1e9bac0b499e724f40-e1908c4eef218b197bb5a6d844810dd3",
+    "sequence_id": 14,
+    "ProjectVersion": "2306.01",
+    "ResponseText": "Ticha wav\n\nVe vašem případě vás spojím s našimi asistenty, kteří s vámi údaje k přihlášení dořeší.",
+    "Wave": "2",
+    "ResponseVoice": "MSG_DSL_31_10_00\n\nMSG_DSL_31_05_00",
+    "application": "nlp_engine",
+    "Channel": "voice",
+    "@version": "1",
+    "LogType": "interaction"
+  },
+  "fields": {
+    "VariablesIn.clientDialogId": [
+      "OVAP5aa66aa37c9f2c1027704be3a497e61bdb7189e1"
+    ],
+    "VariablesIn.clientDialogId.keyword": [
+      "OVAP5aa66aa37c9f2c1027704be3a497e61bdb7189e1"
+    ],
+    "VariablesOut.Stage_Of_Call": [
+      "Before Problem identification"
+    ],
+    "VariablesOut.channel": [
+      "voice"
+    ],
+    "project_name": [
+      "tmcz-uc33-2012.03"
+    ],
+    "VariablesIn.speechRecognitionTechnology": [
+      "PHONEXIA"
+    ],
+    "VariablesIn.isHoliday": [
+      "false"
+    ],
+    "VariablesIn.instruction": [
+      "CALL_START"
+    ],
+    "LogType.keyword": [
+      "interaction"
+    ],
+    "VariablesOut.More_Internets.keyword": [
+      "False"
+    ],
+    "UseCase.keyword": [
+      "W2 CZ Momento 2 UC33 CZ Technical Helpdesk"
+    ],
+    "VariablesIn.speechSynthesisTechnology.keyword": [
+      "NUANCE"
+    ],
+    "VariablesOut.SR_Id.keyword": [
+      "Empty"
+    ],
+    "project_name.keyword": [
+      "tmcz-uc33-2012.03"
+    ],
+    "VariablesIn.Phone_Number": [
+      "00420730504433"
+    ],
+    "VariablesIn.channelType": [
+      "voice"
+    ],
+    "VariablesOut.preprocessed_current_utterance.keyword": [
+      "None"
+    ],
+    "VariablesIn.isOpen": [
+      "true"
+    ],
+    "VariablesOut.ProjectVersion": [
+      "2306.01"
+    ],
+    "VariablesOut.SR_Is_Open.keyword": [
+      "False"
+    ],
+    "VariablesIn.messageId": [
+      "IVR-TST-THK230403201243-0"
+    ],
+    "VariablesOut.SR_Subarea.keyword": [
+      "Empty"
+    ],
+    "VariablesOut.isOpen.keyword": [
+      "true"
+    ],
+    "tags": [
+      "_grokparsefailure"
+    ],
+    "VariablesOut.Customer_Id.keyword": [
+      "3005504174"
+    ],
+    "VariablesIn.processId": [
+      "IVR-TST::IVR-8E565000-6094-7FBA-487B-58C9100EA159"
+    ],
+    "VariablesOut.Global_Stop.keyword": [
+      "2"
+    ],
+    "VariablesIn.UUID": [
+      "3121916c-0120-a1fb-511e-709e06b03c88"
+    ],
+    "ConversationStart": [
+      "2023-04-03T12:31:43.345Z"
+    ],
+    "VariablesOut.Modem_Restarted.keyword": [
+      "False"
+    ],
+    "VariablesOut.Customer_Id": [
+      "3005504174"
+    ],
+    "NodeId.keyword": [
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "VariablesIn.clientConnectionId": [
+      "0466033b20ca1894"
+    ],
+    "VariablesOut.eventName.keyword": [
+      "AsyncDone"
+    ],
+    "VariablesOut.No_Input_To_TDMS.keyword": [
+      "False"
+    ],
+    "tags.keyword": [
+      "_grokparsefailure"
+    ],
+    "VariablesIn.communicationLogic": [
+      "speciallogicforDSL"
+    ],
+    "VariablesIn.instruction.keyword": [
+      "CALL_START"
+    ],
+    "VariablesOut.clientDialogId.keyword": [
+      "OVAP5aa66aa37c9f2c1027704be3a497e61bdb7189e1"
+    ],
+    "VariablesOut.SR_Is_Open": [
+      "False"
+    ],
+    "sequence_id": [
+      14
+    ],
+    "ResponseVoice": [
+      "MSG_DSL_31_10_00\n\nMSG_DSL_31_05_00"
+    ],
+    "InteractionId.keyword": [
+      "va-711b6fc3-11b2-69ea-76bb-cc9733e4ac3a"
+    ],
+    "ProcessedNodes.keyword": [
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "VariablesOut.openingHours.keyword": [
+      "{'workdays': '08:00-16:00', 'weekend': 'CLOSED', 'holidays': 'CLOSED'}"
+    ],
+    "VariablesOut.ConfigurationFileVersion": [
+      "VA_TMCZ_UC33_configuration_v2306.01.xlsx"
+    ],
+    "VariablesIn.speechSynthesisTechnology": [
+      "NUANCE"
+    ],
+    "VariablesOut.Served_Customer_Id.keyword": [
+      "3005504174"
+    ],
+    "VariablesOut._Channel": [
+      "Voice"
+    ],
+    "VariablesIn.processId.keyword": [
+      "IVR-TST::IVR-8E565000-6094-7FBA-487B-58C9100EA159"
+    ],
+    "ConfigHash.keyword": [
+      "cfg-301e99d2d1e9bac0b499e724f40-e1908c4eef218b197bb5a6d844810dd3"
+    ],
+    "VariablesOut.Contact_Id.keyword": [
+      "6001060817"
+    ],
+    "ConversationId.keyword": [
+      "voice_~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesOut.command.keyword": [
+      "rta"
+    ],
+    "VariablesOut.RecordingsTextsVersion": [
+      "VA_TMCZ_UC33_recordings_texts_v2306.01.xlsx"
+    ],
+    "ResponseVoice.keyword": [
+      "MSG_DSL_31_10_00\n\nMSG_DSL_31_05_00"
+    ],
+    "VariablesOut.Phonexia_Confidence": [
+      "0"
+    ],
+    "VariablesIn.Customer_Id.keyword": [
+      "3005504174"
+    ],
+    "VariablesOut.TrainingSetVersion.keyword": [
+      "VA_TMCZ_UC33_training_set_v2306.01.xlsx"
+    ],
+    "Confidence": [
+      1
+    ],
+    "VariablesOut.ConfigurationFileVersion.keyword": [
+      "VA_TMCZ_UC33_configuration_v2306.01.xlsx"
+    ],
+    "VariablesIn.Phone_Number.keyword": [
+      "00420730504433"
+    ],
+    "VariablesOut.messageId.keyword": [
+      "IVR-TST-THK230403201243-0"
+    ],
+    "VariablesOut.eventName": [
+      "AsyncDone"
+    ],
+    "InteractionId": [
+      "va-711b6fc3-11b2-69ea-76bb-cc9733e4ac3a"
+    ],
+    "VariablesIn.Subscriber_Id.keyword": [
+      "150404688"
+    ],
+    "VariablesOut.Account_Type.keyword": [
+      "B2C - PostPaid"
+    ],
+    "VariablesIn.Contact_Role.keyword": [
+      "ZO"
+    ],
+    "Utterance": [
+      ""
+    ],
+    "VariablesOut.Billing_Profile_Id.keyword": [
+      "76037385"
+    ],
+    "VariablesOut.Billing_Profile_Id": [
+      "76037385"
+    ],
+    "ResponseText": [
+      "Ticha wav\n\nVe vašem případě vás spojím s našimi asistenty, kteří s vámi údaje k přihlášení dořeší."
+    ],
+    "VariablesIn.communicationLogic.keyword": [
+      "speciallogicforDSL"
+    ],
+    "VariablesOut.Yesterday": [
+      "2023-04-02, 12:31:43"
+    ],
+    "VariablesOut.Phonexia_Confidence.keyword": [
+      "0"
+    ],
+    "UseCaseCode": [
+      "DSL"
+    ],
+    "VariablesOut.Product_Count": [
+      "0"
+    ],
+    "VariablesIn.isOpen.keyword": [
+      "true"
+    ],
+    "VariablesOut.Callback_Started.keyword": [
+      "False"
+    ],
+    "VariablesOut.clientConnectionId.keyword": [
+      "0466033b20ca1894"
+    ],
+    "VariablesOut.isHoliday": [
+      "false"
+    ],
+    "VariablesOut.DSL_Scenario": [
+      "Unknown"
+    ],
+    "Language": [
+      "cs"
+    ],
+    "VariablesOut.Product_Code.keyword": [
+      "Unknown"
+    ],
+    "Wave.keyword": [
+      "2"
+    ],
+    "VariablesOut.orsId.keyword": [
+      "~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesOut.VA_NodeRouting.keyword": [
+      "MSG_DSL_31_10"
+    ],
+    "VariablesOut.ID_Dictated": [
+      "False"
+    ],
+    "Utterance.keyword": [
+      ""
+    ],
+    "VariablesOut.Phone_Number.keyword": [
+      "00420730504433"
+    ],
+    "VariablesOut.TrainingSetVersion": [
+      "VA_TMCZ_UC33_training_set_v2306.01.xlsx"
+    ],
+    "ProcessedNodesString": [
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "message": [
+      "Business log for the message response."
+    ],
+    "VariablesIn.Phonexia_Confidence": [
+      "0"
+    ],
+    "VariablesOut.TMobile_Benefit.keyword": [
+      "false"
+    ],
+    "GoodbotProcessingTime": [
+      291
+    ],
+    "VariablesOut.speechRecognitionTechnology": [
+      "PHONEXIA"
+    ],
+    "VariablesOut.Contact_Role.keyword": [
+      "ZO"
+    ],
+    "VariablesIn.Billing_Profile_Id": [
+      "76037385"
+    ],
+    "SelectedIntent": [
+      ""
+    ],
+    "VariablesIn.isHoliday.keyword": [
+      "false"
+    ],
+    "VariablesOut.Phone_Number": [
+      "00420730504433"
+    ],
+    "VariablesIn.TMobile_Benefit": [
+      "false"
+    ],
+    "VariablesOut.instruction": [
+      "CALL_START"
+    ],
+    "VariablesOut.Served_Customer_Id": [
+      "3005504174"
+    ],
+    "VariablesOut.TMobile_Benefit": [
+      "false"
+    ],
+    "NodeIdPrevious.keyword": [
+      "T_DSL_START"
+    ],
+    "CallFlowPathString": [
+      "T_DSL_START,T_DSL_TRUE_START,SAVE_DSL_00_01,DEC_DSL_00_06,DEC_DSL_00_07,M_DSL_00_03_GOTO_VA_NODEROUTING,MSG_DSL_31_10,SAVE_DSL_31_02,CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS,DEC_DSL_31_01,MSG_DSL_31_05,M_DSL_31_01_REDIRECTION_TO_OPERATOR,T_DSL_TERMINATE_SESSION,T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "VariablesOut.Business_Hours.keyword": [
+      "True"
+    ],
+    "VariablesOut.communicationLogic": [
+      "speciallogicforDSL"
+    ],
+    "VariablesIn.UUID.keyword": [
+      "3121916c-0120-a1fb-511e-709e06b03c88"
+    ],
+    "VariablesOut.channelType": [
+      "voice"
+    ],
+    "VariablesOut.CALL_SUCCESS.keyword": [
+      "True"
+    ],
+    "VariablesOut.clientConnectionId": [
+      "0466033b20ca1894"
+    ],
+    "Country.keyword": [
+      "CZ"
+    ],
+    "VariablesOut.customerIntents": [
+      ""
+    ],
+    "VariablesOut.speechSynthesisTechnology.keyword": [
+      "NUANCE"
+    ],
+    "VariablesOut.clientInteractionId.keyword": [
+      "THK230403201243"
+    ],
+    "VariablesOut.customerIntents.keyword": [
+      ""
+    ],
+    "VariablesOut.Product_Number": [
+      "['SUB6000']"
+    ],
+    "VariablesOut.processId": [
+      "IVR-TST::IVR-8E565000-6094-7FBA-487B-58C9100EA159"
+    ],
+    "VariablesOut.Contact_Role": [
+      "ZO"
+    ],
+    "VariablesOut.Lifecycle_Status.keyword": [
+      "['active']"
+    ],
+    "VariablesIn.clientInteractionId.keyword": [
+      "THK230403201243"
+    ],
+    "ConversationChange": [
+      "2023-04-03T12:31:43.658Z"
+    ],
+    "VariablesOut.orsId": [
+      "~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesOut.instruction.keyword": [
+      "CALL_START"
+    ],
+    "Wave": [
+      "2"
+    ],
+    "VariablesIn.eventName.keyword": [
+      "AsyncDone"
+    ],
+    "VariablesIn.eventName": [
+      "AsyncDone"
+    ],
+    "Country": [
+      "CZ"
+    ],
+    "VariablesIn.openingHours": [
+      "{'workdays': '08:00-16:00', 'weekend': 'CLOSED', 'holidays': 'CLOSED'}"
+    ],
+    "VariablesIn.Contact_Id.keyword": [
+      "6001060817"
+    ],
+    "VariablesIn.clientInteractionId": [
+      "THK230403201243"
+    ],
+    "UseCaseShortName.keyword": [
+      "UC33CZ"
+    ],
+    "ConversationId": [
+      "voice_~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesOut.No_Input_To_TDMS": [
+      "False"
+    ],
+    "VariablesIn.Subscriber_Id": [
+      "150404688"
+    ],
+    "VariablesIn.orsId": [
+      "~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesIn.Customer_Id": [
+      "3005504174"
+    ],
+    "VariablesOut.Subscriber_Id": [
+      "150404688"
+    ],
+    "VariablesOut.conversation_id.keyword": [
+      "voice_~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesIn.openingHours.keyword": [
+      "{'workdays': '08:00-16:00', 'weekend': 'CLOSED', 'holidays': 'CLOSED'}"
+    ],
+    "VariablesIn.speechRecognitionTechnology.keyword": [
+      "PHONEXIA"
+    ],
+    "VariablesOut.msgRevision": [
+      "v2306.1"
+    ],
+    "VariablesOut.LogicVersion": [
+      "VA_TMCZ_UC33_logic_v2306.01.vsdx"
+    ],
+    "Channel.keyword": [
+      "voice"
+    ],
+    "application.keyword": [
+      "nlp_engine"
+    ],
+    "VariablesOut.ProjectVersion.keyword": [
+      "2306.01"
+    ],
+    "VariablesOut.Product_Count.keyword": [
+      "0"
+    ],
+    "VariablesOut.CALL_SUCCESS": [
+      "True"
+    ],
+    "VariablesOut.Stage_Of_Call.keyword": [
+      "Before Problem identification"
+    ],
+    "VariablesOut.More_Internets": [
+      "False"
+    ],
+    "NodeIdPrevious": [
+      "T_DSL_START"
+    ],
+    "UseCase": [
+      "W2 CZ Momento 2 UC33 CZ Technical Helpdesk"
+    ],
+    "VariablesOut.VA_NodeRouting": [
+      "MSG_DSL_31_10"
+    ],
+    "VariablesIn.Account_Type": [
+      "B2C - PostPaid"
+    ],
+    "VariablesOut.channel.keyword": [
+      "voice"
+    ],
+    "@timestamp": [
+      "2023-04-03T12:31:43.668Z"
+    ],
+    "VariablesIn.channelType.keyword": [
+      "voice"
+    ],
+    "VariablesIn.Account_Type.keyword": [
+      "B2C - PostPaid"
+    ],
+    "VariablesOut.Subscriber_Id.keyword": [
+      "150404688"
+    ],
+    "VariablesOut.processId.keyword": [
+      "IVR-TST::IVR-8E565000-6094-7FBA-487B-58C9100EA159"
+    ],
+    "VariablesOut.UUID.keyword": [
+      "3121916c-0120-a1fb-511e-709e06b03c88"
+    ],
+    "VariablesOut.Product_Code": [
+      "Unknown"
+    ],
+    "VariablesOut.msgRevision.keyword": [
+      "v2306.1"
+    ],
+    "VariablesOut.current_utterance.keyword": [
+      ""
+    ],
+    "ResponseText.keyword": [
+      "Ticha wav\n\nVe vašem případě vás spojím s našimi asistenty, kteří s vámi údaje k přihlášení dořeší."
+    ],
+    "VariablesOut.Callback_Started": [
+      "False"
+    ],
+    "VariablesIn.clientConnectionId.keyword": [
+      "0466033b20ca1894"
+    ],
+    "VariablesIn.Billing_Profile_Id.keyword": [
+      "76037385"
+    ],
+    "ProjectVersion": [
+      "2306.01"
+    ],
+    "VariablesOut._Channel.keyword": [
+      "Voice"
+    ],
+    "VariablesOut.Yesterday.keyword": [
+      "2023-04-02, 12:31:43"
+    ],
+    "VariablesOut.LogicVersion.keyword": [
+      "VA_TMCZ_UC33_logic_v2306.01.vsdx"
+    ],
+    "VariablesIn.TMobile_Benefit.keyword": [
+      "false"
+    ],
+    "VariablesOut.SR_Id": [
+      "Empty"
+    ],
+    "VariablesOut.Contact_Id": [
+      "6001060817"
+    ],
+    "PreprocessedText": [
+      ""
+    ],
+    "Channel": [
+      "voice"
+    ],
+    "VariablesOut.speechRecognitionTechnology.keyword": [
+      "PHONEXIA"
+    ],
+    "VariablesOut.clientDialogId": [
+      "OVAP5aa66aa37c9f2c1027704be3a497e61bdb7189e1"
+    ],
+    "SelectedIntent.keyword": [
+      ""
+    ],
+    "VariablesIn.Phonexia_Confidence.keyword": [
+      "0"
+    ],
+    "VariablesOut.SR_Subarea": [
+      "Empty"
+    ],
+    "VariablesOut.speechSynthesisTechnology": [
+      "NUANCE"
+    ],
+    "PreprocessedText.keyword": [
+      ""
+    ],
+    "Language.keyword": [
+      "cs"
+    ],
+    "VariablesOut.messageId": [
+      "IVR-TST-THK230403201243-0"
+    ],
+    "NodeId": [
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "UseCaseCode.keyword": [
+      "DSL"
+    ],
+    "ProcessedNodesString.keyword": [
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "CallFlowPath": [
+      "T_DSL_START",
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "VariablesIn.messageId.keyword": [
+      "IVR-TST-THK230403201243-0"
+    ],
+    "VariablesOut.openingHours": [
+      "{'workdays': '08:00-16:00', 'weekend': 'CLOSED', 'holidays': 'CLOSED'}"
+    ],
+    "VariablesOut.Business_Hours": [
+      "True"
+    ],
+    "VariablesOut.clientInteractionId": [
+      "THK230403201243"
+    ],
+    "VariablesOut.Product_Number.keyword": [
+      "['SUB6000']"
+    ],
+    "VariablesIn.Contact_Role": [
+      "ZO"
+    ],
+    "ConfigHash": [
+      "cfg-301e99d2d1e9bac0b499e724f40-e1908c4eef218b197bb5a6d844810dd3"
+    ],
+    "VariablesOut.RecordingsTextsVersion.keyword": [
+      "VA_TMCZ_UC33_recordings_texts_v2306.01.xlsx"
+    ],
+    "ProcessedNodes": [
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "ProjectVersion.keyword": [
+      "2306.01"
+    ],
+    "VariablesOut.Lifecycle_Status": [
+      "['active']"
+    ],
+    "@version": [
+      "1"
+    ],
+    "CallFlowPath.keyword": [
+      "T_DSL_START",
+      "T_DSL_TRUE_START",
+      "SAVE_DSL_00_01",
+      "DEC_DSL_00_06",
+      "DEC_DSL_00_07",
+      "M_DSL_00_03_GOTO_VA_NODEROUTING",
+      "MSG_DSL_31_10",
+      "SAVE_DSL_31_02",
+      "CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS",
+      "DEC_DSL_31_01",
+      "MSG_DSL_31_05",
+      "M_DSL_31_01_REDIRECTION_TO_OPERATOR",
+      "T_DSL_TERMINATE_SESSION",
+      "T_DSL_TRUE_TERMINATE_SESSION"
+    ],
+    "VariablesOut.preprocessed_current_utterance": [
+      "None"
+    ],
+    "VariablesOut.channelType.keyword": [
+      "voice"
+    ],
+    "VariablesOut.Modem_Restarted": [
+      "False"
+    ],
+    "VariablesOut.conversation_id": [
+      "voice_~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesOut.UUID": [
+      "3121916c-0120-a1fb-511e-709e06b03c88"
+    ],
+    "VariablesOut.communicationLogic.keyword": [
+      "speciallogicforDSL"
+    ],
+    "LogType": [
+      "interaction"
+    ],
+    "VariablesOut.isHoliday.keyword": [
+      "false"
+    ],
+    "VariablesOut.Global_Stop": [
+      "2"
+    ],
+    "VariablesOut.Account_Type": [
+      "B2C - PostPaid"
+    ],
+    "VariablesOut.DSL_Scenario.keyword": [
+      "Unknown"
+    ],
+    "UseCaseShortName": [
+      "UC33CZ"
+    ],
+    "VariablesOut.command": [
+      "rta"
+    ],
+    "VariablesOut.ID_Dictated.keyword": [
+      "False"
+    ],
+    "application": [
+      "nlp_engine"
+    ],
+    "VariablesOut.isOpen": [
+      "true"
+    ],
+    "VariablesOut.current_utterance": [
+      ""
+    ],
+    "VariablesIn.orsId.keyword": [
+      "~1090~00A04R01P89MP0MS6LRVS2LAES0000IO"
+    ],
+    "VariablesIn.Contact_Id": [
+      "6001060817"
+    ]
+  },
+  "ignored_field_values": {
+    "CallFlowPathString.keyword": [
+      "T_DSL_START,T_DSL_TRUE_START,SAVE_DSL_00_01,DEC_DSL_00_06,DEC_DSL_00_07,M_DSL_00_03_GOTO_VA_NODEROUTING,MSG_DSL_31_10,SAVE_DSL_31_02,CALL_DSL_31_05_COMQUERYINSTALLEDPRODUCTS_QUERYINSTALLEDPRODUCTS,DEC_DSL_31_01,MSG_DSL_31_05,M_DSL_31_01_REDIRECTION_TO_OPERATOR,T_DSL_TERMINATE_SESSION,T_DSL_TRUE_TERMINATE_SESSION"
+    ]
+  }
+}

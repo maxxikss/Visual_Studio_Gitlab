@@ -1,0 +1,2 @@
+UC;startPoint;expectedOutput;utterance;namedEntities
+UC33CZ;CALL_DSL_27_13;CALL_DSL_27_13;;"contactId":"6001092468","correlationId":"voice_~1090~00A04R01P89MP0MS6LRVS2LAES0000IN-80420382074809304954350870919409","requestId":"80420382074544025506902573942170","sender":"sndr:sk.telekom.architecture.GoodAIServiceCZ:CDMtoGOODAI_CZ_Synch","target":"SBLAccountManagement"
