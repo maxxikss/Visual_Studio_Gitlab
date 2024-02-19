@@ -1,10 +1,11 @@
 dsdssf
 
 - Jak to otestujeme na testu Když jsme to doteďka testovali na produkci
-- Kde se na setujou proměnný 
+- Kde se na setujou proměnný jhsj
 - Na testu to máme otočený proti testu dva
-
+-kjs
 - Jak otestujeme callbacky bez flow
-- se zákazník vrátí po zavolání zpět
+- Kam do sa flow se zákazník vrátí po zavolání zpět
+
 sds
-ssas
+aasas
